@@ -6,9 +6,19 @@
 
 Privacy infrastructure for programmable financial operations, cryptographic proofs and selective disclosure.
 
-[veilops.tech](https://veilops.tech) · [Main repository](https://github.com/veilops-protocol/veilops) · [Docs](https://github.com/veilops-protocol/veilops/tree/main/docs) · [Security](https://github.com/veilops-protocol/.github/blob/main/SECURITY.md)
+[veilops.tech](https://veilops.tech) · [Verify it yourself](https://veilops.tech/trust) · [Main repository](https://github.com/veilops-protocol/veilops) · [Docs](https://github.com/veilops-protocol/veilops/tree/main/docs) · [Security](https://github.com/veilops-protocol/.github/blob/main/SECURITY.md)
 
-> **Experimental, Phase 01.** Real cryptography, not audited. No releases, no npm packages, no mainnet deployment.
+> **Experimental, Phase 01.** Real cryptography, **not audited**. Latest release: [v0.1.1](https://github.com/veilops-protocol/veilops/releases/latest), an experimental pre-release with reproducible tarballs and signed build provenance. No npm packages, no mainnet deployment.
+
+## Verify, don't trust
+
+- **Reproducible build:** `bash scripts/reproduce.sh` produces byte-identical package tarballs. Compare them with the release `SHA256SUMS`.
+- **Two implementations:** reference test vectors are checked by the TypeScript code and by a separate standard-library Python verifier, which is itself checked against the RFC 9496 and RFC 8032 vectors.
+- **Build provenance:** `gh attestation verify <file> --repo veilops-protocol/veilops`
+- **Signed history:** commits and tags are SSH-signed with a published maintainer key, and `main` requires signed commits.
+- **Independent review:** not done yet. The scope is in [docs/audit-scope.md](https://github.com/veilops-protocol/veilops/blob/main/docs/audit-scope.md).
+
+Full guide: [VERIFY.md](https://github.com/veilops-protocol/veilops/blob/main/VERIFY.md).
 
 ---
 
