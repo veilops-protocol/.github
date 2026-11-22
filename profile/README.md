@@ -6,7 +6,7 @@
 
 Privacy infrastructure for programmable financial operations, cryptographic proofs and selective disclosure.
 
-[veilops.tech](https://veilops.tech) · [Verify it yourself](https://veilops.tech/trust) · [Main repository](https://github.com/veilops-protocol/veilops) · [Docs](https://github.com/veilops-protocol/veilops/tree/main/docs) · [Security](https://github.com/veilops-protocol/.github/blob/main/SECURITY.md)
+[veilops.tech](https://veilops.tech) · [X @Veilops_Tech](https://x.com/Veilops_Tech) · [Verify it yourself](https://veilops.tech/trust) · [Main repository](https://github.com/veilops-protocol/veilops) · [Docs](https://github.com/veilops-protocol/veilops/tree/main/docs) · [Security](https://github.com/veilops-protocol/.github/blob/main/SECURITY.md)
 
 > **Experimental, Phase 01.** Real cryptography, **not audited**. Latest release: [v0.2.0](https://github.com/veilops-protocol/veilops/releases/latest): zero-knowledge proofs **verified on-chain** by a Solana program on devnet. No npm packages, no mainnet deployment.
 
